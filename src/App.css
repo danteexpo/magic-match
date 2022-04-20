@@ -1,0 +1,43 @@
+header {
+  margin: 3em 0 2em;
+}
+
+h1 {
+  font-size: 1.625rem;
+}
+
+p {
+  margin: 0.875em 0;
+  font-size: 1.125rem;
+}
+
+button {
+  padding: 0.5em 1em;
+  font-family: inherit;
+  font-size: 1.125rem;
+  color: #fff;
+  background: none;
+  border: 4px solid #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  color: #1b1523;
+  background: #fff;
+}
+
+main { 
+  width: 90%;
+  max-width: 768px;
+  margin: 2em auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+@media (min-width: 768px) {
+  main {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
