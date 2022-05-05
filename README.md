@@ -1,12 +1,12 @@
 # Magic Match
 
-## Instalación
+## Installation
 
 ```bash
 npm install
 ```
 
-## Ejecución
+## Start
 
 ```bash
 npm start
